@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="icon" href="../Photos/2.jpg">
+<title>Instatube</title>
+	<style>
+		
+	body{
+			
+			
+			background-image: url(../Photos/120.jpg);
+			background-size: cover;
+		    background-color:rgba(0,0,0,0.7);
+		}
+	#Box
+		{
+			width: 70%;
+			height:500px;
+			margin-left: 15%;
+			margin-top: 8%;
+		}
+	#InnerBoxLeft
+		{
+			width: 60%;
+			height:500px;
+			background-image: url(../Photos/120.jpg);
+			background-size: cover;
+			float: left;
+			
+		}
+	#InnerBoxRight
+		{
+			width: 40%;
+			height:500px;
+			background-color:rgba(0,0,0,0.48);
+			float: left;
+		}
+	#Container
+		{
+			width: 100%;
+			height:500px;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+	#Container::-webkit-scrollbar {
+    display: none;
+}
+	#Intro
+		{
+			width: 100%;
+			height:500px;
+			background-color:white;
+		}
+	#Registration
+		{
+			width: 100%;
+			height:500px;
+			background-image: url(../Photos/021.jpg);
+			background-size: cover;
+			
+		}
+		
+		#cover{
+			width: 100%;
+			height:500px;
+			background-color: rgba(0,0,0,.50);
+			background-size: cover;
+		}
+		#RegistrationEntry{
+			width: 80%;
+			height:500px;
+			margin-left: 10%;
+			background-size: cover;
+		}
+	.btn {
+	  border: none;
+	  color: white;
+	  padding: 14px 28px;
+	  font-size: 16px;
+	  cursor: pointer;
+	}
+	.info {background-color: #2196F3;} 
+	.info:hover {background: #0b7dda;}
+		a{
+			text-decoration: none;
+		color:white;
+		}
+	input[type=text],input[type=email] {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  border: none;
+	  border-bottom: 2px solid white;
+	  background-color:rgba(0,0,0,.1);
+	}
+		
+		input[type=password] {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  border: none;
+	  border-bottom: 2px solid white;
+	  background-color:rgba(0,0,0,.1);
+	}
+		input[type=date]{
+			width: 98%;
+		  margin: 8px 0;
+			
+	  background-color:rgba(253,253,253,0.32);
+		}
+	input[type=submit] {
+	  width: 80%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  border: none;
+	  border-bottom: 2px solid white;
+	  background-color: white;
+	  font-size: 16px;
+		margin-left: 10%;
+	}
+		label{
+			
+			color: white;
+		}
+		#b1{
+			
+			color:white;
+			font-size: 4em;
+		}
+	</style>
+	
+	
+</head>
+
+<body>
+		
+	
+	<div id="Box">
+		<div id="InnerBoxLeft">
+			<br><br><br><br><br><br><br><br><br><br><br><br>
+			
+			<b id="b1">&nbsp;&nbsp;
+			InstaTube</b><br>
+			
+			<font color="white" size="+2">
+			
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Once More <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Secure Login
+				
+				
+			</font>
+		
+		</div>
+		
+		<div id="InnerBoxRight">
+			<div id="Container">
+				
+				<div id="Intro">
+							<center>
+								<br>
+								<font size="+3">
+									<b>Open InstaTube </b>
+									<hr>
+								</font>
+								<img src="../Photos/login-2.gif" height="300" width="400">
+								
+								
+								Write to Share. Listen to hear. Enjoy everywhere.
+								<br><br>
+								<a href="#Registration"><button class="btn info">Click me.</button></a>
+							</center>
+				</div>
+				<div id="Registration">
+					<div id="cover">
+					<div id="RegistrationEntry">
+						<br>
+						<br>
+						<form action="Login.php" method="post">
+						  <br><br><br><br><br><br>
+						  <label for="mail">Email ID</label>
+						  <input type="email" id="mail" name="mail" placeholder="instatube@gmail.com">
+							
+						 
+							
+						  
+							
+						   <label for="password">Password</label>
+						  <input type="password" id="password" name="password">
+														
+								
+							
+						  <input type="submit" value="Confirm">	
+							
+							
+						</form>
+						<br>
+						<font color="white"><a href="ForgetPassword.html">Forget Password?</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Registration_page.html">Are you new here?</a></font>
+					
+					</div>
+					
+					
+					
+					</div>
+				</div>
+			
+			
+			
+			
+			
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>

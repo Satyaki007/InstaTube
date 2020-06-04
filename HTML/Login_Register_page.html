@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+<link rel="icon" href="../Photos/2.jpg">
+	<title>Instatube &#9679; Gateway</title>
+</head>
+<body alink="rgba(0,0,0,1.00)" vlink="rgba(0,0,0,1.00)" link="rgba(0,0,0,1.00)">
+
+
+ <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="align">
+		<img class="logo" src="img/logo.svg">
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" href="#login">Login</a>
+				<a id="register" href="#register">Register</a>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Username" type="text">
+							<img src="img/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Password" type="password">
+							<img src="img/pass.svg">
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Remember me</span>
+						</label>
+					</div>
+					<button><a href="Portfolio_page.html">Login</a></button>
+				</form>
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Email" type="text">
+							<img src="img/mail.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Username" type="text">
+							<img src="img/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Password" type="password">
+							<img src="img/pass.svg">
+						</div>
+					</div>
+					<button><a href="Portfolio_page.html">Register</a></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
